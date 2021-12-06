@@ -11,8 +11,8 @@ btnSi.addEventListener("click", () => {
 });
 
 btnNo.addEventListener("mouseover", () => {
-  const posX = Math.floor(Math.random() * 75);
-  const posY = Math.floor(Math.random() * 75);
+  const posX = parseInt(Math.floor(Math.random() * 75));
+  const posY = parseInt(Math.floor(Math.random() * 75));
 
   btnNo.style.left = `${posX}%`;
   btnNo.style.top = `${posY}%`;
