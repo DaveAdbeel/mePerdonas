@@ -16,7 +16,6 @@ btnNo.addEventListener("mouseover", () => {
 
   btnNo.style.left = `${posX}%`;
   btnNo.style.top = `${posY}%`;
-  btnNo.style.transition = "all 0.1s";
 });
 
 
