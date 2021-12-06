@@ -45,7 +45,6 @@ footer > button{
     padding: 15px 40px;
     margin: 20px;
     border-radius: 5px;
-    cursor: pointer;
     position: absolute;
     transition: background-color 0.3s ease-in-out;
 }
